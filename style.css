@@ -1,0 +1,23 @@
+.largo{
+    height: 35px;
+    width: 316px;
+    margin-bottom: 10px;
+}
+
+.corto{
+    height: 35px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.cortoespecial{
+    height: 35px;
+    width: 157px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+body{
+    text-align: center;
+}

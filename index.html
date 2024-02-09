@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hr>
+    <h1>Formulario 1</h1>
+    <form action="envio.php" method="post">
+    <h3>Accede a tu Área Clientes</h3>
+        
+    <p>Elige tu documento</p>
+    
+    <input type="radio" value="DNI" name="DNI/PASAPORTE" id="DNI">DNI o Tarjeta de residencia
+    <br>
+    <input type="radio" value="PASAPORTE" name="DNI/PASAPORTE" id="PASAPORTE">Pasaporte
+   
+    <p>Número de documento</p>
+    <input type="text" id="numero">
+
+    <p>Fecha de nacimiento</p>
+    <input type="date" id="fecha">
+    <br>
+    <br>
+    <input type="checkbox" id="recordar">Recordar
+    <br>
+    <br>
+    <input type="submit" name="Enviar" value="Entrar">
+    <br>
+    <br>
+    <img src="img/flecha.png" alt="" height="15px">
+    <a href="">Acceder con DNI electrónico</a>
+    <br>
+    <img src="img/flecha.png" alt="" height="15px">
+    <a href="">Mas informacion sobre seguridad</a>
+    </form>
+    <hr>
+
+    <form action="envio.php" method="post">
+
+    <h1>Formulario 2</h1>
+    <h3>Empieza creando tu usuario</h3>
+    <input class="largo" type="textarea" placeholder="Nombre (Como sale en el DNI)">
+    <br>
+    <input class="corto" type="textarea" placeholder="1ºapellido (Como sale en el DNI)">  
+    <input class="corto" type="textarea" placeholder="2ºapellido (Como sale en el DNI)">
+    <br>
+    <select class="cortoespecial" name="DNI/NIF/CERT.AET">
+        <option>DNI/NIF/CERT.AET</option>
+        <option>DNI</option>
+        <option>NIF</option>
+        <option>CERT.AEAT</option>
+        
+    <input class="corto" type="textarea" placeholder="Número de documento">
+    <br>
+    <input class="corto" type="number" placeholder="Móvil">
+    <input class="corto" type="textarea" placeholder="Email">
+    </form>
+    <hr>
+    <form action="envio.php" method="post">
+    <h1>Formulario 3</h1>
+    <h3>¿Eres nuevo?</h3>
+    <p>Regístrate para guardar tu información y hacer
+        tus pedidos de forma mas facil y rapida
+    </p>
+    <label>Email</label>
+    <br>
+    <input type="textarea" placeholder="Introduce tu email" id="email">
+    <br>
+    <br>
+    <label>Teléfono</label>
+    <br>
+    <input type="textarea" placeholder="Tu teléfono" id="telefono">
+    <br>
+    <br>
+    <label>Contraseña</label>
+    <br>
+    <input type="password" placeholder="Introduce tu contraseña">
+    <br>
+    <br>
+    <label>Confirma tu contraseña</label>
+    <br>
+    <input type="password" placeholder="Confirmar contraseña">
+    <br>
+    <br>
+    <input type="checkbox">He leido y acepto <a href="envio.php">Política de privacidad</a>
+    <br>
+    <input type="checkbox">Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas segun mi perfil.
+    <br>
+    <br>
+    <input type="submit" value="Crea tu cuenta">
+    </form>
+</body>
+</html>
